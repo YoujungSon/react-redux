@@ -24,7 +24,7 @@ const Home = () => {
       </form>
       <ul>
         {todos.map((toDo) => (
-          <ToDo key={ToDo.id} {...toDo} />
+          <ToDo key={toDo.id} {...toDo} />
         ))}
       </ul>
     </>
